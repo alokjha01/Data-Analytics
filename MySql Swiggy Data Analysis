@@ -87,6 +87,12 @@ create table if not exists clean as
   ( select * from rest3 where cuisine not in ('Bangladeshi', 'Special Discount from (Hotel Swagath)', 'Discount offer from Garden Cafe Express Kankurgachi', 
 'Khasi', 'SVANidhi Street Food Vendor', 'Tandoor', 'Tribal', '', 'Telangana', 'Kashmiri'));
 
+
+
+
+
+
+
 select * from clean;
 
 -- JOINS
